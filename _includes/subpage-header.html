@@ -1,13 +1,96 @@
-        <!-- Slider Start -->
-        <section id="global-header">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="block">
-                  <h1>{{page.title}}</h1>
-                  <p>Bienvenidxs al Curso de Lógica Computacional!.</p>
-                </div>
-              </div>
-            </div>
+<style>
+  #global-header .block {
+      font-family: 'Latin Modern Math', sans-serif; /* Change 'Arial' to the desired font */
+  }
+  #global-header:before  {
+      color: #E3E3E4; /* Text color */
+      background: linear-gradient(to right,#3c8f03, #9bf035); /* Apple green linear gradient */
+  }
+  #global-header .block p {
+      font-size: 20px;
+      font-weight: 700;
+  }
+  #global-header .block h1 {
+      font-size: 45px;
+      font-weight: 600;
+  }
+  .custom-list {
+      list-style-type: disc; /* Use decimal numbers */
+      padding-left: 430px; /* Reset padding */
+      display: flex; /* Use flexbox */
+      flex-direction: column; /* Arrange items vertically */
+      align-items: flex-start; /* Align items to the start (left) of the container */
+  }
+
+  .custom-list li {
+      margin-bottom: 20px; /* Add some spacing between items */
+      display: flex; /* Use flexbox */
+      align-items: center; /* Align content vertically */
+      width: 100%; /* Ensure list items take up full width */
+  }
+
+  .custom-list li span {
+      width: 100%; /* Ensure spans take up full width */
+      text-align: center; /* Center the text horizontally */
+  }
+  .section-title p {
+  font-family: "Roboto", sans-serif;
+}
+
+
+</style>
+
+
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>{{page.title}}</h1>
+          <p>¡Bienvenidxs!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>¿Qué es la lógica computacional?</h2>
+        <p>Es el uso de las computadoras para establecer verdades en una formalidad lógica</p>
+      </div>
+    </div>
+    <section id="another-section">
+      <div class="container">
+	<div class="row">
+	  <div class="section-title">
+            <h2>Contenido del curso</h2>
+	    
+	  </div>
+	  <div class="col-md-12">
+            <ul class="custom-list">
+              <li>1.Introducción a Haskell</li>
+              <li>2.Sintaxis y Semántica de Lógica</li>
+              <li>3.Resolución Binaria</li>
+	      <li>4.Lógica de Primer Orden</li>
+	      <li>5.Introducción a la Programación Lógica con Prolog</li>
+	      <li>6.Control de Programas en Prolog</li>
+	      <li>7.Introducción al asistente de pruebas COQ</li>
+	      <li>8.Introducción en COQ</li>
+            </ul>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Instalaciones</h2>
+            <p> Haskell</p>
           </div>
-        </section>
+        </div>
